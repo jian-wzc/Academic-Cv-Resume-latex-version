@@ -1,0 +1,163 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% -------------------------------------------------
+%%      PERSONAL DETAILS
+%% -------------------------------------------------
+
+\begin{document}
+\name{Jian Wang}
+\tagline{Applied Mathematical Student}
+
+%\photo{3.3cm}{profile.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{2512134w@student.gla.ac.uk}
+  \phone{+44 7579858810}
+%  \mailaddress{Address, Street, 00000 County}
+  \location{Glasgow, UK}
+%  \twitter{@zackbare1}
+  
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% -------------------------------------------------
+%%      EDUCATION
+%% -------------------------------------------------
+
+\cvsection[sidebar]{Education}
+
+\cvevent{Applied Mathematical}{The University of Glasgow}{2021}{Glasgow UK}
+Expected 2:1 and above degree
+\divider
+
+\cvevent{Electrical Engineering}{Huaihai Institute of  Technology}{2012 -- 2016}{Jiangsu China}
+GPA:86/100
+
+
+%\divider
+%% -------------------------------------------------
+%%      CO-CURRICULAR/ EVENTS
+%% -------------------------------------------------
+
+\cvsection{Co-curricular/ Events}
+\smallskip
+\large{\textbf{Outstanding graduation dissertation}}
+\begin{itemize}
+\item[\faTrophy] 2016 Outstanding graduation dissertation:Stochastic model in Ebola Virus spread  
+\end{itemize}
+\smallskip
+\large{\textbf{Meritorious Winner}}
+\begin{itemize}
+\item[\faTrophy] 2015 MCM/ICM Mathematical Contest in Modelling and Interdisciplinary
+Contest in Modelling. Problems: Traffic flow 
+\end{itemize}
+\smallskip
+\large{\textbf{Honourable Winner}}
+\begin{itemize}
+\item[\faTrophy] 2014 MCM/ICM Mathematical Contest in Modelling and Interdisciplinary Contest in Modelling. Problems: Epidemic Spread
+\end{itemize}
+\smallskip
+\large{\textbf{Accessit}}
+\begin{itemize}
+\item[\faTrophy] 2015 National Mathematical Contest in Modelling.
+\end{itemize}
+\smallskip
+\large{\textbf{National project 2014}}
+\begin{itemize}
+\item[\faTrophy] The manager of National undergraduate experimental innovation project
+\end{itemize}
+\smallskip
+
+%% -------------------------------------------------
+%%      SKILLS
+%% -------------------------------------------------
+
+\cvsection{SKILLS}
+
+\cvskill{Matlab, Julia, R, C, SQL}{3}
+\divider
+
+\cvskill{ \LaTeX, Microsoft office}{4}
+\divider
+
+
+
+
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+%% -------------------------------------------------
+%%      INTERESTS
+%% -------------------------------------------------
+
+\cvsection{Interests}
+\cvtag{Mathematical Biology} 
+\cvtag{Computers}
+\cvtag{PDE}\\[3pt]
+\cvtag{Problem Solving}
+\cvtag{Boxing}
+
+%% -------------------------------------------------
+%%      LEARNING
+%% -------------------------------------------------
+
+\cvsection{Learning}
+\begin{itemize}
+    \item[--] \textbf{R programming} \,Proficiency course on R by Johns Hopkins through Coursera.
+    \item[--] \textbf{
+Julia Scientific Programming} \,Proficiency course on Julia by University of Cape Town through Coursera.
+\end{itemize}
+
+
+\clearpage
+\nocite{*}
+\end{document}
