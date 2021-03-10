@@ -1,0 +1,47 @@
+
+%% -------------------------------------------------
+%%      RESEARCH WORK
+%% -------------------------------------------------
+
+\cvsection{Research Work}
+\cvproject{Traffic model  (2015)}
+\begin{itemize}
+\item 
+The model based on cellular Automata and Monte-Carol method aim to solve the traffic congestion problem under the influence of " Keep right except to pass rule", simulating the traffic on two-lane freeway based on Simulink platform,recoording the average velocity, overtaking rate, road density and danger index to assess the performance of keep right rule by comparison with unconstricted rule
+\end{itemize}
+\smallskip
+\cvproject{Epidemic model (2016)}
+\begin{itemize}
+\item The model based on SEIR multi-agent system aims to detect the relationships between different intervening factors and Infected numbers. Netlogo and Simulink been used to output the solution curve of SEIR numbers 
+\end{itemize}
+\smallskip
+\cvproject{Chinstrap penguin Conservation strategy  (2021)}
+\begin{itemize}
+\item 
+The model based on the proposed Usher matrix to analyse the dynamic changing pattern of  Chinstrap penguin specie's numbers at Antarctic land and its factor's elasticity's, aims to propose a conservation strategy for protecting the penguin species
+\end{itemize}
+\smallskip
+\cvproject{Multi-species competition model (2021)}
+\begin{itemize}
+\item 
+This model built for detecting travelling wave phenomenon and its application of a certain multi-species environment, aims to find solutions to its PDE system and based on it to analyse the competition mechanism among multi-species 
+\end{itemize}
+
+%% -------------------------------------------------
+%%      CAREER INTERESTS
+%% -------------------------------------------------
+\cvsection{Career Interests}
+\cvtag{Data Analyst}
+\cvtag{Business Report}
+\cvtag{Artificial Intelligence}
+\cvtag{Bio Computing}
+
+\smallskip
+\cvproject{Data analyst(2016-2018)}
+\begin{itemize}
+\item 
+Work as a data analyst at a real estate corporation, daily routines cover: Analysing daily sales data to present findings and figuring out the problems behind the operation by consulting report.
+\item Utilising knowledge of data modelling and statistical  method to build up product life cycle model for indicating sales and production.
+\item Undertaking logistical manger responsibilities during data analyst career period and build up and put up an optimization method of warehouse picking path based on deviation degree into application for improving picking-up
+
+\end{itemize}
